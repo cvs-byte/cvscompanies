@@ -4,6 +4,8 @@
 User-agent: *
 Allow: /
 Disallow: /404.html
+Disallow: /index.legacy.html
+Disallow: /login/
 Disallow: /admin/
 Disallow: /private/
 Disallow: /backup/
