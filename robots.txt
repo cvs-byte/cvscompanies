@@ -1,0 +1,30 @@
+# robots.txt for CVS Companies (https://cvscompanies.tech/)
+# CVS Companies – Technology & Digital Solutions
+
+User-agent: *
+Allow: /
+Disallow: /404.html
+Disallow: /admin/
+Disallow: /private/
+Disallow: /backup/
+Disallow: /node_modules/
+
+# Explicitly permit CSS, JS, and image assets for full search engine rendering
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.svg$
+Allow: /*.webp$
+
+# Googlebot specific
+User-agent: Googlebot
+Allow: /
+
+# Bingbot specific
+User-agent: Bingbot
+Allow: /
+
+# XML Sitemap declaration
+Sitemap: https://cvscompanies.tech/sitemap.xml
